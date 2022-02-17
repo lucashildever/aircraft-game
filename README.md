@@ -1,2 +1,2 @@
 # Aircraft Game
- aircraft in-browser game
+in-browser aircraft game
