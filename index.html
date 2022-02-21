@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link href="css/style.css" rel="stylesheet" type="text/css">
-<title>Rescue</title>
+<title>Aircraft Rescue</title>
 
 </head>
 
@@ -12,14 +12,22 @@
 
 	<div id="fundoGame"> <!-- div fundoGame !-->
 	
-		<div id="inicio" onclick="start()"><h1> Rescue </h1> <!-- div inicio !-->
-            <p>Use the W button to move the helicopter up, S to go down and D to shot.</p>
-            <p> Crick here to get start! </p>
+		<div id="inicio" onclick="start()"><h1> Aircraft Rescue </h1> <!-- div inicio !-->
+                  <p>Use the "W" button to go up, the "S" to go down and the "D" to shoot.</p>
+                  <p> Click here to start! </p>
 		</div> <!-- Fim da div inicio !-->
 		
     </div> <!-- Fim da div fundoGame !-->
 	
 </div> <!-- Fim da div container !-->
+
+<!-- Sons do jogo !-->
+<audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+<audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+<audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+<audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+<audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+<audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
 
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 <script type="text/javascript" src="js/js.js"></script> 
