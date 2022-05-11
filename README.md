@@ -1,2 +1,4 @@
 # Aircraft Game
-in-browser aircraft game
+
+<img style="width: 60%" src="imgs/project5.png" alt="project preview">
+
